@@ -9,7 +9,11 @@ h4,
 h5,
 h6 {
   margin-block: 0;
+  text-align: center;
+  color: rgb(89, 114, 169);
 }
+.card {
+  background-color: rgb(244, 244, 244);
 
 /* WIREFRAME: Uncomment this to see the outline of every box on your
  * card. (An outline takes up no space, so it won't change your layout.)
@@ -23,8 +27,22 @@ h6 {
 /* Your box model card styles go here!
  * Layout with margin, padding, border, width, and height only
  * (no flexbox or grid). */
-.card h1 {
-  /* Demo style -- remove me and write your own */
-  color: red;
-  margin-left: 1.5in;
+.main-title {
+  margin: 34px 0 0 0;
 }
+.card-font h3 {
+  font-size: 37px;
+  margin: 20px 0;
+  color: rgb(89, 114, 169);
+}
+.card-back-font h4 {
+  font-size: 20px;
+  margin: 30px 0;
+  color: rgb(89, 114, 169);
+}
+.contact-back-font p {
+  font-size: 20px;
+  text-padding: 10px 0;
+  color: rgb(89, 114, 169);
+}
+  

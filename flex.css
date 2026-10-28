@@ -10,7 +10,10 @@ h5,
 h6 {
   margin-block: 0;
 }
-
+:root {
+  --main-color: rgb(26, 28, 147);
+  --text-color: rgb(243, 141, 40);
+}
 /* WIREFRAME: Uncomment this to see the outline of every box on your
  * card. (An outline takes up no space, so it won't change your layout.)
  * Comment it back out when you are done. */
@@ -21,7 +24,13 @@ h6 {
 */
 
 /* Your flexbox card styles go here! */
-.card-front {
+.card-front { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+  color: var(--text-color);
 }
 
 /* Honors: styles for each card size, for example:
